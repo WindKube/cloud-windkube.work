@@ -1,0 +1,7 @@
+version: 3
+
+tasks:
+  add:theme:vncnt-hugo:
+  - git submodule add https://github.com/fncnt/vncnt-hugo themes/vncnt-hugo
+
+  init: hugo new site cloud-windkube.work
